@@ -13,8 +13,6 @@ function changeColor() {
     const randomNumber = getRandomNumber();
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber]
-    
-   
 }
 
 //get random number to change color in changeColor func
